@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+.navbar a,li{
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  list-style: none;
+  background-color: #000;
+
+}
+.nav li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav li a{
+  cursor: pointer;
+  color: #fff;
+
+}
+
+.nav li a:hover{
+  transition: all 0.3s ease 0s;
+  color: #F6C701;    
+}
+
+
+.logo{
+  cursor: pointer;
+  color: #fff;
+}
+
+.cart{
+  font-size: 30px;
+}
